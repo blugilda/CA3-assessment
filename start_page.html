@@ -36,18 +36,17 @@
         color: rgb(181,137,  0);
       }
 
-      nav {
-        width: 100%;
-      }
-
-      .nav-links {
+      nav ul {
         list-style: none;
       }
 
-      .nav-links li {
-        display: inline-block;
-        padding: 0px 20px;
+      nav li {
         align-items: center;
+        display: flex;
+      }
+
+      nav {
+        width: 100%;
       }
 
       aside {
@@ -81,17 +80,13 @@
       <h1>Header</h1>
     </header>
 
-    <div class="flex-container">
-
     <nav>
-      <ul class="nav-links">
+      <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Our team</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-
-    </div>
 
        <!-- A Search form is another common non-linear way to navigate through a website. -->
 
@@ -118,7 +113,7 @@
 
         <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
        
-      </div>
+       </div>
 
         <div class="subsection">
 
@@ -128,7 +123,7 @@
 
         <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
 
-      </div>
+       </div>
       </article>
 
       <!-- the aside content can also be nested within the main content -->
